@@ -1,0 +1,27 @@
+body{
+	padding-top:80px;
+}
+
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 60px;
+	font-weight:bold;
+}
+.navbar-default .navbar-nav>li>a{
+		color: #1EB96B; 
+}
+.navbar-default .navbar-nav>li>a:last-child
+{
+	padding-right:50px;
+}
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}
