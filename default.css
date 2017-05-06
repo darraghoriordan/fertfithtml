@@ -1,7 +1,10 @@
 body{
 	padding-top:80px;
 }
-
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
 .navbar-fixed-top {
     min-height: 80px;
 }
