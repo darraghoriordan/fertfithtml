@@ -22,26 +22,13 @@ body{
 }
 
 .home-content__main-text{
-	font-family:serif;
+	font-family:Didot, serif;
 	padding-top:60px;
 	padding-left:100px;
 	padding-bottom:300px;
 	color:white;
 	font-size:5em;
 }
-
-.home-content__main-image--green:after {
-    content: '';
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    top: 0;
-    left: 0;
-	z-index:99;
-    background: rgba(255, 0, 92, 0.6);
-}
-
-
 
 .navbar-fixed-top {
     min-height: 80px;
