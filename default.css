@@ -6,10 +6,43 @@
 body{
 	padding-top:80px;
 }
+
 .no-padding {
   padding-left: 0;
   padding-right: 0;
 }
+
+.home-content__main-image--green {
+	/*min-height:1080px;
+  background-size: auto 100%;*/
+    background-size: cover;
+	
+    background: linear-gradient(rgba(30, 185, 107, 0.75), rgba(30, 185, 107, 0.75)),
+                rgba(30, 185, 107, 0.75) url('./home_image_1020_x_920.jpg') no-repeat center center fixed;
+}
+
+.home-content__main-text{
+	font-family:serif;
+	padding-top:60px;
+	padding-left:100px;
+	padding-bottom:300px;
+	color:white;
+	font-size:5em;
+}
+
+.home-content__main-image--green:after {
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+	z-index:99;
+    background: rgba(255, 0, 92, 0.6);
+}
+
+
+
 .navbar-fixed-top {
     min-height: 80px;
 }
